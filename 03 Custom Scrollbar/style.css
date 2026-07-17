@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: crimson;
+}
+
+.card{
+    width: 700px;
+    background-color: #ccc;
+    padding: 20px;
+    margin: 20px;
+    line-height: 28px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{
+    background: transparent;
+    width: 10px;
+    border: 1px solid black;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(214, 193, 193);
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: gainsboro;
+    transition: 0.5s;
+}
